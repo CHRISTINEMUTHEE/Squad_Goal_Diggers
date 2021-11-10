@@ -37,7 +37,7 @@ Incase of any problems when accessing the project, or any questions, feel free t
 - Angela Nyutu - angela.nyutu@student.moringaschool.com
 - Christine Muthee - christine.muthee@student.moringaschool.com
 - Angelo sang - angelo.sang@student.moringaschool.com
-- Moreen Mugambi - moreen.mugambi@student.moringaschool.com
+- Moreen Mugambi - moreenmarutamugambi@gmail.com
 
 # License
 MIT License

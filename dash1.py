@@ -26,7 +26,7 @@ card_age = dbc.Card(
                 html.P('73')
             ]
         )
-    ], color='#DEDEDE',
+    ], color='#A3D8FF',
 )
 
 card_gender = dbc.Card(
@@ -37,17 +37,27 @@ card_gender = dbc.Card(
                 html.P('Male')
             ]
         )
-    ], color='#DEDEDE',
+    ], color='#A3D8FF',
 )
 
-
+card_med = dbc.Card(
+    [
+        dbc.CardHeader('Most Popular Benzodiazepine Medication is :'),
+        dbc.CardBody(
+            [
+                html.P('Rivotril')
+            ]
+        )
+    ], color='#A3D8FF',
+)
 
 
 # Deck for the cards
 cards1 = dbc.CardDeck(
     [
         dbc.Col(card_age, width='auto'),
-        dbc.Col(card_gender, width='auto')
+        dbc.Col(card_gender, width='auto'),
+        dbc.Col(card_med, width='auto')
     ],
 )
 
@@ -139,7 +149,7 @@ app.layout = dbc.Container(
     # Title
     [
         html.H1(
-            'PARKINSONS PREDICTOR'
+            'PARKINSONS DISEASE PREDICTOR'
         ),
         html.Hr(),
 
